@@ -1,10 +1,13 @@
+import React from 'react';
 import './App.css';
+import Top from './components/Top';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1>Hello</h1>
+        <Top />
+        <h1>Hello</h1>
       </header>
     </div>
   );
